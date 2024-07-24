@@ -156,7 +156,10 @@ footer > img {
   #about-me {
     border-radius: 5px;
   }
-  section {
-    width: 100%;
+  .projects-container {
+    flex-direction: column;
+  }
+  .project {
+    flex: 1;
   }
 }
